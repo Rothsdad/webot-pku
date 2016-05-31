@@ -1,0 +1,39 @@
+{
+  "name": "weixin-robot-example",
+  "version": "0.0.5",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~3.0",
+    "request": "~2.12",
+    "underscore": "~1.4",
+    "debug": "~0.7.2",
+    "js-yaml": "~2.0.3",
+    "weixin-robot": "~0.5.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "should": "~2.0.1",
+    "xml2js": "~0.2.8"
+  },
+  "engines": {
+    "node" : ">=0.8.0",
+    "npm" : ">=1.1.6"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "make test"
+  },
+  "keywords": [
+    "weixin",
+    "webot",
+    "wechat"
+  ],
+  "description": "weixin-robot 模块示例",
+  "repository": "https://github.com/node-webot/webot-example.git",
+  "author": "Jesse Yang <jyyjcc@gmail.com>",
+  "contributors": [
+    "Jesse Yang <jyyjcc@gmail.com> (http://github.com/ktmud)",
+    "TZ <atian25@qq.com> (http://atian25.iteye.com/)"
+  ],
+  "license": "MIT"
+}
